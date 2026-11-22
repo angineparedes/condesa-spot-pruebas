@@ -1,0 +1,9 @@
+CONDESA SPOT V4.1 — Prototipo responsive optimizado
+
+En celular: logo y buscador arriba; navegación inferior de 5 accesos (Inicio, Categorías, Novedades, Favoritos, Más). El menú Más contiene Más vendidos y Contacto.
+
+El sitio publicado NO ha sido modificado.
+
+Para probar: desde esta carpeta ejecuta python3 -m http.server 8000 y visita http://localhost:8000.
+
+WhatsApp y enlaces de pago siguen vacíos. Imágenes y precios provisionales.

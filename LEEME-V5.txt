@@ -1,0 +1,6 @@
+Condesa Spot V5 — Prototipo híbrido.
+En escritorio (>650 px) se muestra exactamente la V3 aprobada dentro de un marco independiente.
+En móvil (<=650 px) se muestra la navegación y el diseño V4.1.
+Para probar completamente el catálogo: ejecutar un servidor local.
+No se ha publicado en GitHub.
+Nota: esta es una integración de prototipo; antes de publicar conviene unificar la navegación y accesibilidad en una sola estructura sin iframe.

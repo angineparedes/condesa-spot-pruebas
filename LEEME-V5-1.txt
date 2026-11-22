@@ -1,0 +1,1 @@
+V5.1: Abre index.html para escritorio V3. Abre VISTA-MOVIL.html para probar la navegación V4.1 en una ventana móvil simulada, sin herramientas de desarrollador. No se ha publicado en GitHub.
