@@ -1,0 +1,18 @@
+CONDESA SPOT — PROTOTIPO NAVEGABLE (NO PUBLICADO)
+
+El diseño de portada es EXACTAMENTE la imagen aprobada. Las áreas interactivas transparentes permiten abrir categorías, fichas, búsqueda y favoritos.
+
+Para probarlo en Mac:
+1. Descomprime el ZIP.
+2. Abre Terminal en la carpeta del proyecto.
+3. Ejecuta: python3 -m http.server 8000
+4. Abre http://localhost:8000
+
+Para añadir productos: edita catalogo.json. Cada objeto tiene id, nombre, categoria, precio, descripcion, detalle, formato, imagen, landing y pago. Si imagen está vacía se usa la portada provisional.
+Para WhatsApp: escribe tu número en config.js, variable whatsapp (formato internacional sin espacios).
+
+NOTA: Los enlaces landing y pago están vacíos, por eso los botones están desactivados. La página principal es una imagen fiel al diseño aprobado con zonas de interacción; las fichas son HTML. Para la versión de producción, conviene reconstruir la portada en HTML/CSS para mejorar accesibilidad, SEO y adaptación móvil sin perder la apariencia.
+
+No se ha publicado ni conectado ninguna pasarela de pago.
+
+ACTUALIZACIÓN V2: Novedades y Más vendidos tienen páginas independientes sin buscador ni filtros de categorías. Para Novedades marca novedad:true y fechaPublicacion YYYY-MM-DD en catalogo.json. Para Más vendidos marca masVendido:true; son destacados de demostración, no un ranking real de ventas.
